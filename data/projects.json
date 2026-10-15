@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Community Deployment & Resource Tracker",
+    "description": "An interactive web portal built to track budgets, deployment schedules, and logistics for community outreach initiatives.",
+    "tags": ["HTML5/CSS3", "JavaScript", "Logic"]
+  },
+  {
+    "title": "Interactive Logic Tracing Tool",
+    "description": "A web module demonstrating nested loop trace tables, discrete math logic, and algorithm execution paths.",
+    "tags": ["JavaScript", "Data Structures", "Algorithms"]
+  },
+  {
+    "title": "Personal Student Hub",
+    "description": "A fully responsive, dark-themed personal student portfolio hosted on GitHub Pages.",
+    "tags": ["HTML5", "CSS3", "GitHub Pages"]
+  }
+]
