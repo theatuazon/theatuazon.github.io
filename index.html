@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thea Tuazon | Student Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="logo">Thea<span>Tuazon</span></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#github">GitHub Profile</a>
+            <a href="#contact" class="btn-primary">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">Information Technology Student</span>
+            <h1>Hi, I'm <span class="gradient-text">Thea Tuazon</span></h1>
+            <p>Passionate IT student specializing in software development, web applications, and technology-driven community solutions.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="https://github.com" target="_blank" class="btn-secondary">GitHub Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-card">
+            <p>I am a dedicated Information Technology student focused on building intuitive software applications, solving logical challenges, and leveraging tech to make an impact in community development and public service projects.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML & CSS</h3>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>Logic & Programming</h3>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>Git & GitHub</h3>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div id="projects-container" class="projects-grid">
+            <!-- Loaded dynamically from data/projects.json -->
+        </div>
+    </section>
+
+    <!-- GitHub Profile README Generator Section -->
+    <section id="github" class="section">
+        <h2 class="section-title">GitHub Profile README</h2>
+        <div class="readme-card">
+            <div class="readme-header">
+                <h3>Generated README.md for GitHub</h3>
+                <button id="copy-btn" class="btn-secondary">Copy Markdown</button>
+            </div>
+            <pre><code id="readme-code">
+# Hi there, I'm Alexandra "Thea" Tuazon 👋
+
+🎓 **Information Technology Student** 
+
+- 🔭 Currently working on web applications and IT logic projects.
+- 🌱 Learning advanced JavaScript, modern frameworks, and system design.
+- 💬 Ask me about web development, technology solutions, and project management.
+- 📫 How to reach me: [Your Email / LinkedIn Link]
+
+---
+
+### 🛠️ Tech Stack
+- **Languages:** JavaScript, HTML5, CSS3
+- **Tools:** Git, GitHub, VS Code
+- **Focus Areas:** Web Applications, Software Logic, Community IT Deployment
+            </code></pre>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <form id="contact-form" class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alexandra Thea Tuazon. Built for GitHub Pages.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
