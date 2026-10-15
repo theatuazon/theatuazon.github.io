@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra Thea Tuazon | Personal Student Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="logo">Thea<span>Tuazon</span></div>
+        <nav>
+            <a href="#welcome">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills & Expertise</a>
+            <a href="#projects">Featured Projects</a>
+            <a href="#contact" class="btn-primary">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Welcome / Hero Section -->
+    <section id="welcome" class="hero">
+        <div class="hero-container">
+            <div class="profile-pic-wrapper">
+                <!-- Replace 'profile.jpg' with your image file name or image URL -->
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600" alt="Alexandra Thea Tuazon" class="profile-pic">
+            </div>
+            <div class="hero-content">
+                <span class="badge">Information Technology Student</span>
+                <h1>Welcome to My Portfolio</h1>
+                <h2>Hi, I'm <span class="gradient-text">Alexandra Thea Tuazon</span></h2>
+                <p>Passionate about web development, software logic, and leveraging technology for practical and community solutions.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">View Featured Projects</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-card">
+            <p>I am an Information Technology student who enjoys building practical web applications, tackling complex logic problems, and utilizing computer science principles to build meaningful digital tools. Through my coursework and projects, I continuously refine my skills in software engineering, user interface design, and community technology deployment.</p>
+        </div>
+    </section>
+
+    <!-- Skills & Expertise Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML5 & CSS3</h3>
+                <p>Responsive web layout, modern CSS Grid/Flexbox, UI styling.</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript (ES6+)</h3>
+                <p>DOM manipulation, dynamic JSON rendering, async interactions.</p>
+                <div class="progress-bar"><div class="progress" style="width: 82%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>Programming Logic</h3>
+                <p>Nested loops, algorithm tracing, problem solving.</p>
+                <div class="progress-bar"><div class="progress" style="width: 88%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>Git & Version Control</h3>
+                <p>Repository management, GitHub Pages deployment, collaboration.</p>
+                <div class="progress-bar"><div class="progress" style="width: 78%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div id="projects-container" class="projects-grid">
+            <!-- Loaded dynamically from data/projects.json -->
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <p class="contact-subtitle">Have a question, collaboration idea, or project query? Send me a message below!</p>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alexandra Thea Tuazon. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
